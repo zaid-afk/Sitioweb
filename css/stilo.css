@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: rgb(255, 255, 255);
+}
+
+
+
+i {
+  font-size: 30px;
+  color: rgb(159, 150, 150);
+  margin: 5px;
+}
+
+
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  background: rgb(255, 255, 255);
+  width: 100%;
+  align-items: center;
+  padding: 10px;
+  top: 0;
+
+}
+
+
+
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+
+  padding: 20px 30px;
+
+  color: rgb(191, 201, 205);
+  font-weight: bold;
+}
+
+
+nav ul li a:hover {
+  background: rgb(98, 105, 110);
+}
+
+nav ul li a:active {
+  background: rgb(0, 0, 0);
+}
+
+.pica-pollo {
+  width: 1200px;
+  height: 700;
+  margin: 0px auto;
+  padding-left: 150px;
+  overflow: hidden;
+
+}
+
+.pica-pollo ul {
+  display: flex;
+  padding: 0;
+  width: 400%;
+
+  animation: slide 20s infinite alternate ease-in-out;
+}
+
+.pica-pollo li {
+  width: 100%;
+  list-style: none;
+
+}
+
+.pica-pollo img {
+  width: 75%;
+
+}
+
+@keyframes slide {
+  0% {
+    margin-left: 0;
+  }
+
+  20% {
+    margin-left: 0;
+  }
+
+  25% {
+    margin-left: -100%;
+  }
+
+  45% {
+    margin-left: -100%;
+  }
+
+  50% {
+    margin-left: -200%;
+  }
+
+  70% {
+    margin-left: -200%;
+  }
+
+  75% {
+    margin-left: -300%;
+  }
+
+  100% {
+    margin-left: -300%;
+  }
+}
+
+.donaty22{
+  padding: 100px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "WDTH" 100;
+
+}
+
+
+.text {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+
+
+}
+
+
+.class {
+  margin-left: 40px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "WDTH" 100;
+}
+
+.class2 {
+  margin-right: 50px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "WDTH" 100;
+}
+
+.class3 {
+  margin-right: 90px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "WDTH" 100;
+}
+
+
+
+.Text1 {
+
+  display: flex;
+}
+
+.Parrafos {
+  margin-left: 200px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "WDTH" 100;
+  margin: 40px;
+}
+
+.Parrafos2 {
+  margin-right: 20px;
+  margin: 40px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "WDTH" 100;
+}
+
+.Parrafos3 {
+margin: 40px;
+height: 100px;
+  margin-left: 190px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "WDTH" 100;
+}
+
+.item {
+  scroll-margin-top: 8ex;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
+
+
+.malcony {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+.malcan{
+  display: flex;
+margin-left: 20px;
+  justify-content: space-between;
+  margin-right: 50px;
+}
+.promo {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+position: relative;
+z-index: 2;
+}
+
+button:hover{
+  transform: translate(0, -5px);
+
+}
+
+button:focus{
+  outline: none;
+}
+
+button{
+  display: inline-block;
+  border: none;
+  height: 100px;
+  border-radius: 0px;
+  padding: 20px 0;
+  
+  background-color: rgb(237, 237, 237);
+  font-size: 2.0rem;
+  color: #000000;
+ 
+  transition: 150ms;
+  margin-top: 40px;
+  font-family: sans-serif;
+
+}
+
+.Arroz button:focus{
+
+ background: rgb(129, 104, 104);
+}
+.Arroz button:hover{
+  background: rgb(108, 102, 102);
+}
+
